@@ -7,4 +7,3 @@ Link video học:
 
 ![Naruto](https://i.pinimg.com/564x/04/99/c3/0499c35dfaec318401d1f8b4e3121f3c.jpg)
 
-v
