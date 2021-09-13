@@ -1,7 +1,7 @@
 import java.sql.*;
 
 public class Delete_data extends Parent_off_all{
-    public static void main(String ...args) {
+    public static void  delete(){
         try{
             makeConnection();
             Statement st = con.createStatement();
