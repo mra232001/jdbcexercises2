@@ -12,6 +12,7 @@ public class Inser_to_table {
             }
         }catch (Exception e){
             e.printStackTrace();
+            /// dau ma
         }
     }
 }
