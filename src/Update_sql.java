@@ -1,7 +1,8 @@
 import java.sql.*;
-public class Update_sql {
+public class Update_sql extends Parent_off_all{
     public static void update() throws SQLException{
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "root", "root");
+//        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "root", "root");
+        makeConnection();
         Statement st = con.createStatement();
         String sql = "update employee " +
                 "set ename = 'ha' " +

@@ -1,9 +1,9 @@
 import java.sql.*;
 
-public class Inser_to_table {
+public class Inser_to_table extends Parent_off_all{
     public static void insert() {
         try{
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "root", "root");
+            makeConnection();
             Statement state = con.createStatement();
             state.executeUpdate("insert into employee(ename, age) values('hoang', 20)");
             ResultSet res = state.executeQuery("select * from employee");
